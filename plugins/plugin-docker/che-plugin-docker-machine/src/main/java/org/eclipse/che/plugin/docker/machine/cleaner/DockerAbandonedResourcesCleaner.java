@@ -89,7 +89,7 @@ public class DockerAbandonedResourcesCleaner implements Runnable {
   )
   @Override
   public void run() {
-    cleanContainers();
+    //cleanContainers();
     cleanNetworks();
   }
 
