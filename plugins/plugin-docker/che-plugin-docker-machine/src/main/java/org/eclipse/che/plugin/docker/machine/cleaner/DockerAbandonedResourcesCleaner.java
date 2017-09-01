@@ -88,7 +88,7 @@ public class DockerAbandonedResourcesCleaner implements Runnable {
                   unit = TimeUnit.MINUTES)
     @Override
     public void run() {
-        cleanContainers();
+        //cleanContainers();
         cleanNetworks();
     }
 
